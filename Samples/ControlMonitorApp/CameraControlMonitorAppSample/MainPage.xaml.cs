@@ -70,6 +70,7 @@ namespace OutboundSettingsAppTest
             {
                 // This app could define "SharingMode= MediaCaptureSharingMode.SharedReadOnly" here if
                 // the app only wants to be informed of the changes and not have full control camera app.
+                SharingMode = MediaCaptureSharingMode.SharedReadOnly,
                 VideoDeviceId = m_cameraDeviceList[selectedIndex].Id,
                 StreamingCaptureMode = StreamingCaptureMode.Video
             };
